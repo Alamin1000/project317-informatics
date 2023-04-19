@@ -788,8 +788,13 @@ p:last-child{
   font-size: 16px;
 }
 .customer-card__content .bottom-button {
+  font-size: 16px;
   margin-top: 3px;
+  color: #37383A;
   min-width: initial;
+}
+.customer-card__content .bottom-button:hover {
+  color: #fff;
 }
 /* ---customer-section---end */
 
