@@ -39,6 +39,49 @@
       '<span class="fas fa-chevron-right fa-2x"></span>',
     ],
   });
+  $(".good-slider-active").owlCarousel({
+    loop: true,
+    margin: 0,
+    responsiveClass: true,
+    nav: false,
+    dots: false,
+    items: 1,
+    autoplay: true,
+    dots: true,
+    animateOut: "fadeOut",
+    navText: [
+      '<span class="fas fa-chevron-left fa-2x"></span>',
+      '<span class="fas fa-chevron-right fa-2x"></span>',
+    ],
+  });
+  let customerSlider = $(".customer-slider-active");
+  customerSlider.owlCarousel({
+    loop: false,
+    margin: 50,
+    responsiveClass: true,
+    nav: false,
+    items: 3,
+    autoWidth: true,
+    navText: [
+      '<span class="fas fa-chevron-left fa-2x"></span>',
+      '<span class="fas fa-chevron-right fa-2x"></span>',
+    ],
+    responsive: {
+      0: {
+        margin: 31,
+      },
+      767: {},
+      1000: {},
+    },
+  });
+  // customerSlider.on("mousewheel", ".owl-stage", function (e) {
+  //   if (e.deltaY > 0) {
+  //     customerSlider.trigger("next.owl");
+  //   } else {
+  //     customerSlider.trigger("prev.owl");
+  //   }
+  //   e.preventDefault();
+  // });
 
   $(".brand-active").owlCarousel({
     loop: true,

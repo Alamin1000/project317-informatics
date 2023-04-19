@@ -1,23 +1,200 @@
 
 
-@media (max-width: 1399px) {
- 
-}
-
-
 @media (max-width: 1199px) {
- 
+    .hero__image__slider {
+        --extra-width: 28px;
+    }
+
+    .good__left__header h3 .shape {
+        width: 167px;
+        top: 50px;
+    }
+
+    .good__left {
+        padding-right: 0;
+    }
 }
 
 
 @media (max-width: 991px) {
- 
+    .hero__content {
+        padding: 40px 0 87px;
+    }
 }
 
 
 @media (max-width: 768px) {
- 
+    .offcanvas-menu .offmenu {
+        width: 100%;
+        min-width: initial;
+    }
+    .offcanvas-menu .offmenu {
+        padding: 60px 18px 40px;
+    }
+
+    .hero__image__slider {
+        --extra-width: 10px;
+        margin-top: -17px;
+        width: 95%;
+    }
+    .hero__image__slide .img {
+        padding: 0px 15px;
+    }
+    .hero__tp-row {
+        padding: 10px 12px 0;
+    }
+    .hero__image__slide .side-txt {
+        bottom: 0px;
+    }
+    .hero__content {
+        max-width: 320px;
+    }
+    .hero__content .h1 {
+        font-size: 48px;
+        margin: 0 0 26px;
+        letter-spacing: -0.3px;
+    }
+    .hero__content .bottom-buttons .default-button {
+        min-width: 200px;
+    }
+    
+
+    .kunan__list__item {
+        gap: 11px;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    .kunan__list__item__left {
+        width: 100%;
+        padding-left: 15px;
+    }
+    .kunan__list__item__left h3 {
+        font-size: 32px;
+        margin: 0px 0 6px;
+    }
+    .kunan__list__item__icon {
+        width: 70px;
+        margin-right: 10px;
+    }
+    .kunan-section__title {
+        margin: 0 0 35px;
+    }
+    .kunan__list__item {
+        padding: 15px 0;
+    }
+    .kunan__list__item:hover {
+        padding: 15px 15px;
+    }
+    .kunan-section {
+        padding: 80px 0;
+    }
+    .a-img-section {
+        padding: 0px 0 50px;
+    }
+
+
+    .good-section__title {
+        margin: 0 0 40px;
+        text-align: center;
+    }
+    .h3 {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+    .good__left__header {
+        text-align: center;
+        margin: 0 0 26px;
+    }
+    .good__left__header h3 .shape {
+        display: none;
+    }
+    .good-section {
+        padding: 80px 0;
+    }
+    .good__right__title {
+        text-align: center;
+    }
+    .good__right__title p {
+        text-align: left;
+    }
+    .good-section__row {
+        --bs-gutter-x: 40px;
+    }
+    .p {
+        font-size: 16px;
+        line-height: 1.4;
+        font-weight: 500;
+    }
+    .good-ul {
+        margin-top: 25px;
+        font-size: 16px;
+    }
+
+
+    .h2 {
+        font-size: 32px;
+        margin: 0 0 18px;
+    }
+    .founder__content-row {
+        padding: 40px 0 37px;
+    }
+    .founder-content {
+        padding: 0 23px;
+    }
+    .founder__auth-row {
+        margin-top: 40px;
+        padding-right: 0;
+    }
+    .founder__auth-row__inner {
+        justify-content: center;
+    }
+    .founder-section {
+        padding: 35px 0;
+    }
+
+    .customer-section {
+        padding: 60px 0;
+    }
+    .customer-section__title {
+        margin: 0 0 45px;
+    }
+    .customer-slide {
+        width: 312px;
+    }
+
+    .contact-section__title h2 {
+        font-size: 40px;
+        margin: 0 0 15px;
+    }
+    .contact-section__title h4 {
+        margin: 0 0 35px;
+    }
+    .contact-button-row {
+        gap: 31px;
+        flex-direction: column;
+    }
+    .contact-section__title {
+        margin: 0 0 35px;
+    }
+    .contact-section {
+        padding: 55px 0 80px;
+    }
+
+
+    .footer-muskot {
+        width: 258px;
+    }
+    .footer-muskot-area {
+        padding: 188px 0 100px;
+    }
+    .footer-menu {
+        flex-direction: column;
+        gap: 13px;
+        text-align: center;
+    }
+
 }
+
 
 
 @media (max-width: 575px) {
