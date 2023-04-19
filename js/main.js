@@ -46,9 +46,8 @@
     nav: false,
     dots: false,
     items: 1,
-    autoplay: true,
+    // autoplay: true,
     dots: true,
-    animateOut: "fadeOut",
     navText: [
       '<span class="fas fa-chevron-left fa-2x"></span>',
       '<span class="fas fa-chevron-right fa-2x"></span>',
