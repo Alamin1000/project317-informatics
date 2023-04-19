@@ -24,14 +24,24 @@
 .default-button .arr-right {
     font-size: 15px;
 }
+.default-button .phone-icon {
+    margin-top: 2px;
+}
+.default-button svg [stroke="#1B102F"] {
+    transition: 0.3s;
+}
+.default-button:hover svg [stroke="#1B102F"] {
+    stroke: #fff;
+}
 
 .default-button--slim {
     min-height: 48px;
 }
 
+
 .default-button--bordered {
     border-color: var(--theme__color1);
-    color: #37383A;
+    color: #1B102F;
     background: transparent;
 }
 .default-button--bordered:hover {
