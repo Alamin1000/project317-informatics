@@ -76,7 +76,7 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: var(--roobert);
 }
-a, a:active, a:focus, a:active, a:hover {
+a, a:active, a:hover {
   text-decoration:none !important;
   color: inherit;
 }
@@ -163,6 +163,8 @@ p:last-child{
 }
 .menu-button {
   font-size: 21px;
+  padding-top: 2px;
+  line-height: 1;
   height: 48px;
   width: 48px;
   display: flex;
@@ -283,6 +285,8 @@ p:last-child{
   border-radius: 50%;
   transition: 0.3s;
   border: 2px solid rgba(255, 255, 255, 0.08);
+  padding-top: 2px;
+  line-height: 1;
 }
 .offcanvas-close:hover {
   background: var(--theme__color2);
@@ -331,15 +335,21 @@ p:last-child{
 
 }
 .canv-menu ul li a {
-  font-size: 32px;
   line-height: 1.45;
   font-weight: 700;
-  color: #fff;
   display: flex;
   flex-direction: column;
 }
 .canv-menu ul li a:hover {
 
+}
+.canv-menu ul li a .m-text {
+  font-size: 32px;
+  color: #fff;
+  transition: 0.3s;
+}
+.canv-menu ul li a:hover .m-text {
+  color: var(--theme__color1);
 }
 .canv-menu ul li .sm {
   font-size: 12px;
@@ -351,6 +361,12 @@ p:last-child{
   line-height: 1.35;
   font-weight: 500;
   color: #FFFFFFCC;
+}
+.canv-menu ul li .md a {
+  transition: 0.3s;
+}
+.canv-menu ul li .md a:hover {
+  color: var(--theme__color1);
 }
 
 .offcanvas-overlay {
