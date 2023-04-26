@@ -187,6 +187,10 @@ p:last-child{
 .hero-section {
   padding-top: 70px;
   background: #DAE1E9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 .hero-section__inner {
 
@@ -199,9 +203,10 @@ p:last-child{
 }
 
 .hero__image__slider {
-  margin-top: -60px;
+  margin-top: -90px;
   --extra-width: 102px;
-  width: calc(100% + var(--extra-width));
+  --ex-right-width: 80px;
+  width: calc(100% + var(--extra-width) + var(--ex-right-width));
   margin-left: calc(var(--extra-width) * -1);
 }
 .hero__image__slide {

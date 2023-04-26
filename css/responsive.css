@@ -3,6 +3,7 @@
 @media (max-width: 1199px) {
     .hero__image__slider {
         --extra-width: 28px;
+        --ex-right-width: 30px;
     }
 
     .good__left__header h3 .shape {
@@ -34,6 +35,7 @@
 
     .hero__image__slider {
         --extra-width: 10px;
+        --ex-right-width: 10px;
         margin-top: -17px;
         width: 95%;
     }
@@ -48,11 +50,18 @@
     }
     .hero__content {
         max-width: 320px;
+        margin-left: 15px;
     }
     .hero__content .h1 {
         font-size: 48px;
         margin: 0 0 26px;
         letter-spacing: -0.3px;
+    }
+    .hero__content .h1 .hr-h1-shape {
+        width: 25px;
+        top: 135px;
+        left: 151px;
+        position: absolute;
     }
     .hero__content .bottom-buttons .default-button {
         min-width: 200px;

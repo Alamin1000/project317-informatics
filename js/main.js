@@ -46,7 +46,8 @@
     nav: false,
     dots: false,
     items: 1,
-    // autoplay: true,
+    autoplay: true,
+    autoplayTimeout: 5000,
     dots: true,
     navText: [
       '<span class="fas fa-chevron-left fa-2x"></span>',
