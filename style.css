@@ -187,10 +187,15 @@ p:last-child{
 .hero-section {
   padding-top: 70px;
   background: #DAE1E9;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+}
+@media (min-width: 1200px) {
+  .hero-section .container {
+    max-width: 1230px;
+  }
 }
 .hero-section__inner {
 
