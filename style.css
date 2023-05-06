@@ -175,6 +175,8 @@ p:last-child{
   background: #1B102F;
   border-radius: 50%;
   transition: 0.3s;
+  position: relative;
+  right: -50px;
 }
 .menu-button:hover {
   color: #fff;
@@ -194,7 +196,7 @@ p:last-child{
 }
 @media (min-width: 1200px) {
   .hero-section .container {
-    max-width: 1230px;
+    /* max-width: 1230px; */
   }
 }
 .hero-section__inner {
@@ -209,7 +211,7 @@ p:last-child{
 
 .hero__image__slider {
   margin-top: -90px;
-  --extra-width: 102px;
+  --extra-width: 70px;
   --ex-right-width: 80px;
   width: calc(100% + var(--extra-width) + var(--ex-right-width));
   margin-left: calc(var(--extra-width) * -1);
