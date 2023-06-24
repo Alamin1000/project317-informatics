@@ -14,6 +14,7 @@
     $(".offcanvas-menu").removeClass("active");
     $(".offcanvas-overlay").removeClass("active");
   });
+
   $(document).mouseup(function (e) {
     var container = $(".offmenu");
 
@@ -34,6 +35,10 @@
     items: 1,
     autoplay: true,
     animateOut: "fadeOut",
+    autoplayTimeout: 5000,
+    autoHeight: true,
+    touchDrag: false,
+    mouseDrag: false,
     navText: [
       '<span class="fas fa-chevron-left fa-2x"></span>',
       '<span class="fas fa-chevron-right fa-2x"></span>',
@@ -118,4 +123,8 @@ $(document).ready(function () {
 
   // preloader
   $("#preloader").fadeOut(500);
+
+
+   var footerHeight = $('.footer-section').height();
+  $(".main").css('margin-bottom', + footerHeight + 'px');
 });
