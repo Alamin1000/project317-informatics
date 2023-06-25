@@ -251,6 +251,19 @@
     .s-hero__content {
         margin-top: 70px;
     }
+
+    .h2 {
+        font-size: 50px;
+        margin: 0 0 16px;
+    }
+    .case-card .row {
+        --bs-gutter-x: 70px;
+    }
+
+
+    .case-card-wrap > .row {
+        --bs-gutter-x: 50px;
+    }
 }
 
 /* 
@@ -285,6 +298,32 @@
         align-items: center;
         text-align: center;
     }
+
+
+    .title-hero__content .h1 {
+        font-size: 75px;
+        margin: 0 0 25px;
+    }
+    .thc-txr {
+        gap: 80px;
+    }
+    .thc-txr .txt p {
+        font-size: 16px;
+    }
+    .title-hero {
+        padding: 100px 0 60px; 
+    }
+    .stp-section {
+        padding: 80px 0;
+    }
+    .a-sec-txt {
+        margin: 60px 0;
+    }
+    .contact-li-title_l .h2 {
+        font-size: 60px;
+        margin-bottom: 30px;
+    }
+
 }
 
 
@@ -365,6 +404,36 @@
     }
 
 
+
+    .thc-txr {
+        gap: 20px;
+    }
+    .stp_row {
+        --bs-gutter-x: 60px;
+    }
+    .contact-li-title_l .h2 {
+        font-size: 50px;
+    }
+
+    .case-card {
+        border-bottom: none;
+        padding: 0;
+        margin-bottom: 40px;
+    }
+    .case-card .row {
+        --bs-gutter-y: 30px;
+    }
+    .case-card.case-card--hr {
+        padding-top: 28px;
+    }
+    .case-section__title {
+        margin-bottom: 60px;
+        text-align: center;
+        align-items: center;
+    }
+    .case-section {
+        padding: 80px 0;
+    }
 
 }
 
@@ -649,6 +718,65 @@
         width: 100%;
         min-width: unset;
     }
+
+    .title-hero__content .h1 {
+        font-size: 40px;
+        margin: 0 0 18px;
+    }
+    .thc-txr {
+        flex-direction: column;
+    }
+    .thc-txr .ar-l {
+        width: 100%;
+    }
+    .thc-txr {
+        gap: 0;
+    }
+    .thc-txr .icon {
+        width: 50px;
+    }
+    .title-hero {
+        padding: 93px 0 40px;
+    }
+
+    .stp-section {
+        padding: 50px 0;
+    }
+    .stp_row {
+        --bs-gutter-x: 35px;
+    }
+    .a-sec-txt {
+        margin: 40px 0;
+    }
+
+    .contact-li-title {
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact-li-title_l .h2 {
+        font-size: 40px;
+    }
+    .contact-li-title_l {
+        margin-bottom: 42px;
+    }
+    .contact-li-title {
+        margin-bottom: 30px;
+    }
+
+
+    .service-brands {
+        max-width: 215px;
+        margin: 0 auto;
+    }
+    .service-brands .row {
+        --bs-gutter-x: 70px;
+    }
+    .service-brand-section {
+        padding: 50px 0;
+    }
+
+
+    
 }
 
 

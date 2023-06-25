@@ -53,6 +53,9 @@
 
 
 /* small-tools */
+.scale_0-8 {
+    transform: scale(0.8) !important;
+}
 .no-min-width {
     min-width: unset !important;
 }

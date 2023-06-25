@@ -961,6 +961,15 @@ p:last-child {
   transform: translate(0, -50%);
   font-weight: 300;
 }
+.good-ul.good-ul--dot li::after {
+  content: '';
+  height: 14px;
+  width: 14px;
+  background: #DAE1E9;
+  border-radius: 50%;
+  top: calc(50% + 2px);
+}
+
 
 /* ---good-section---end */
 
@@ -1165,9 +1174,10 @@ p:last-child {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 105px;
 }
 .contact-li-title_l {
-  margin-bottom: 105px;
+
 }
 .contact-li-title_l .h2 {
   font-size: 80px;
@@ -1489,7 +1499,7 @@ p:last-child {
 	flex-shrink: 0;
 }
 .thc-txr .ar-l img {
-
+  width: 100%;
 }
 .thc-txr .txt {
 
@@ -1528,3 +1538,89 @@ p:last-child {
 
 }
 /* ---stp-section---end */
+
+
+
+/* ---service-brand-section--- */
+.service-brand-section {
+  padding: 80px 0;
+}
+.service-brand-section__inner {
+
+}
+
+.service-brands {
+  display: flex;
+}
+.service-brands .row {
+  --bs-gutter-x: 94px;
+  --bs-gutter-y: var(--bs-gutter-x)
+}
+.service-brand {
+
+}
+.service-brand img {
+  width: 100%;
+}
+/* ---service-brand-section---end */
+
+
+/* ---case-section--- */
+.case-section {
+  padding: 110px 0;
+}
+.case-section__inner {
+
+}
+
+.case-section__title {
+  margin-bottom: 100px;
+}
+
+.case-card-wrap {
+
+}
+.case-card-wrap > .row {
+  --bs-gutter-x: 105px;
+}
+.case-card {
+  padding: 32px 0;
+  border-bottom: 2px solid #00000014;
+}
+.case-card.case-card--hr {
+  border-top: 2px solid #00000014;
+  border-bottom: none;
+}
+.case-card .row {
+  --bs-gutter-x: 100px;
+  --bs-gutter-y: 30px;
+}
+.case-card .row [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+.case-card:last-child {
+  border-bottom: none;
+}
+.case-card .image {
+  flex-grow: 1;
+}
+.case-card .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.case-card .case-content {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+.case-card .case-content .cont-blk {
+
+}
+.case-card .case-content .cont-blk h2 {
+  font-size: 32px;
+  margin-bottom: 18px;
+}
+/* ---case-section---end */
