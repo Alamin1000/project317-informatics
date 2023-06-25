@@ -144,6 +144,8 @@
         padding-left: 30px;
         padding-right: 30px;
     }
+
+
 }
 
 @media (max-width: 1199px) {
@@ -263,6 +265,25 @@
 
     .case-card-wrap > .row {
         --bs-gutter-x: 50px;
+    }
+
+    .sm-cont-row {
+        margin-bottom: 38px;
+        --bs-gutter-x: 50px;
+    }
+    .case-details-section {
+        padding: 90px 0;
+    }
+    .quote-row {
+        padding: 35px 100px 35px 68px;
+        margin-bottom: 38px;
+    }
+    .video-frame {
+        margin-bottom: 38px;
+    }
+
+    .c-details-section {
+        padding: 60px 0;
     }
 }
 
@@ -433,6 +454,10 @@
     }
     .case-section {
         padding: 80px 0;
+    }
+
+    .quote-row {
+        padding: 25px 20px 25px 35px;
     }
 
 }
@@ -776,7 +801,26 @@
     }
 
 
-    
+    .case-details-section {
+        padding: 70px 0;
+    }
+    .case-details-section {
+        padding: 70px 0;
+    }
+    .sm-ul li {
+        gap: 12px;
+    }
+    .quote-row h2 {
+        font-size: 24px;
+    }
+    .quote-row {
+        padding: 15px 20px 15px 18px;
+    }
+
+    .video-frame-outer {
+        width: calc(100% + (100vw - 100%));
+        margin-left: calc((100vw - 100%) * -0.5);
+    }
 }
 
 
@@ -838,5 +882,15 @@
 
     .contact-section__title h2 {
         font-size: 34px;
+    }
+
+    .about-hero__content .h1 {
+        font-size: 42px;
+    }
+    .h3-s {
+        font-size: 27px;
+    }
+    .case-sum {
+        padding: 16px 10px 20px 15px;
     }
 }
