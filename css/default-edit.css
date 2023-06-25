@@ -53,6 +53,9 @@
 
 
 /* small-tools */
+.no-min-width {
+    min-width: unset !important;
+}
 .underline {
     text-decoration: underline !important;
 }
