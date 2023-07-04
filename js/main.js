@@ -124,7 +124,6 @@ $(document).ready(function () {
   // preloader
   $("#preloader").fadeOut(500);
 
-
-   var footerHeight = $('.footer-section').height();
-  $(".main").css('margin-bottom', + footerHeight + 'px');
+  var footerHeight = $(".footer-section").height();
+  $(".main").css("margin-bottom", +footerHeight + "px");
 });
