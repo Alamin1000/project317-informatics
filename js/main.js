@@ -3,14 +3,17 @@
 
   // offcanvas-js
   $(".offcanvas-open").click(function () {
+    event.preventDefault();
     $(".offcanvas-menu").addClass("active");
     $(".offcanvas-overlay").addClass("active");
   });
   $(".offcanvas-menu a").click(function () {
+    event.preventDefault();
     $(".offcanvas-menu").removeClass("active");
     $(".offcanvas-overlay").removeClass("active");
   });
   $(".close-offcanvas").click(function () {
+    event.preventDefault();
     $(".offcanvas-menu").removeClass("active");
     $(".offcanvas-overlay").removeClass("active");
   });
@@ -22,6 +25,27 @@
     if (!container.is(e.target) && container.has(e.target).length === 0) {
       $(".offcanvas-menu").removeClass("active");
       $(".offcanvas-overlay").removeClass("active");
+    }
+  });
+
+  //sticky
+  var wind = $(window);
+  var sticky = $(".header-section");
+  sticky.addClass("normal-sticky");
+  wind.on("scroll", function () {
+    var scroll = wind.scrollTop();
+    if (scroll < 300) {
+      if (sticky.hasClass("sticky")) {
+        setTimeout(function () {
+          sticky.removeClass("temp-sticky");
+          sticky.addClass("normal-sticky");
+        }, 200);
+      }
+      sticky.removeClass("sticky");
+    } else {
+      sticky.addClass("sticky");
+      sticky.addClass("temp-sticky");
+      sticky.removeClass("normal-sticky");
     }
   });
 
