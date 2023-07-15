@@ -221,54 +221,37 @@ p:last-child {
   border-radius: 50%;
   transition: 0.3s;
   line-height: 1;
+  --sticky-right: 20px;
+  position: fixed;
+  top: 15px;
+  right: var(--sticky-right);
 }
-
 .menu-button:hover {
   color: #fff;
   background: var(--theme__color2);
 }
-
-.header-section.normal-sticky .menu-button {
-  animation: 0.1s menuButtonInHeader;
+.header-section.sticky-out .menu-button {
+  animation: buttonOut 0.3s forwards;
 }
-@keyframes menuButtonInHeader {
+@keyframes buttonOut {
   from {
-    opacity: 0;
+    transform: translate(0,0);
   }
   to {
-    opacity: 1;
+    transform: translate(0,-100px);
   }
 }
-.menu-button {
-  --sticky-right: 20px;
+.header-section.sticky-in .menu-button {
+  animation: buttonIn 0.3s forwards;
 }
-.header-section.sticky .menu-button,
-.header-section.temp-sticky .menu-button {
-  position: fixed;
-  top: 15px;
-  right: var(--sticky-right);
-  animation: 0.3s menuButtonIn;
-}
-.header-section.temp-sticky:not(.sticky) .menu-button {
-  animation: .2s menuButtonOut forwards;
-}
-@keyframes menuButtonIn {
+@keyframes buttonIn {
   from {
-    opacity: 0;
+    transform: translate(0,-100px);
   }
   to {
-    opacity: 1;
+    transform: translate(0,0);
   }
 }
-@keyframes menuButtonOut {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
-}
-/* header-end */
 
 
 /* ---hero-section--- */
