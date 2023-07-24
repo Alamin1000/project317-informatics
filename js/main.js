@@ -8,7 +8,7 @@
     $(".offcanvas-overlay").addClass("active");
   });
   $(".offcanvas-menu a").click(function () {
-    event.preventDefault();
+    // event.preventDefault();
     $(".offcanvas-menu").removeClass("active");
     $(".offcanvas-overlay").removeClass("active");
   });

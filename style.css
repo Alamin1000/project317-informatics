@@ -231,7 +231,7 @@ p:last-child {
   background: var(--theme__color2);
 }
 .header-section.sticky-out .menu-button {
-  animation: buttonOut 0.3s forwards;
+  animation: buttonOut 0.5s forwards;
 }
 @keyframes buttonOut {
   from {
@@ -242,7 +242,7 @@ p:last-child {
   }
 }
 .header-section.sticky-in .menu-button {
-  animation: buttonIn 0.3s forwards;
+  animation: buttonIn 0.5s forwards;
 }
 @keyframes buttonIn {
   from {
